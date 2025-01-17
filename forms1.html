@@ -128,8 +128,76 @@
         </div>
         <button type="submit" class="btn btn-primary">Sign in</button>
       </form>
+<hr>
+<form class="row gx-3 gy-2 align-items-center">
+    <div class="col-sm-3">
+      <label class="visually-hidden" for="specificSizeInputName">Name</label>
+      <input type="text" class="form-control" id="specificSizeInputName" placeholder="Jane Doe">
+    </div>
+    <div class="col-sm-3">
+      <label class="visually-hidden" for="specificSizeInputGroupUsername">Username</label>
+      <div class="input-group">
+        <div class="input-group-text">@</div>
+        <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="Username">
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <label class="visually-hidden" for="specificSizeSelect">Preference</label>
+      <select class="form-select" id="specificSizeSelect">
+        <option selected>Choose...</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+    </div>
+    <div class="col-auto">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
+        <label class="form-check-label" for="autoSizingCheck2">
+          Remember me
+        </label>
+      </div>
+    </div>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
 
+  <br>
+  <form class="row row-cols-lg-auto g-3 align-items-center">
+    <div class="col-12">
+      <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+      <div class="input-group">
+        <div class="input-group-text">@</div>
+        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+      </div>
+    </div>
+  
+    <div class="col-12">
+      <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+      <select class="form-select" id="inlineFormSelectPref">
+        <option selected>Choose...</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+    </div>
+  
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+        <label class="form-check-label" for="inlineFormCheck">
+          Remember me
+        </label>
+      </div>
+    </div>
+  
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
 </body>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
